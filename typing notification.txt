@@ -1,0 +1,29 @@
+POST https://us-east4-gcp.api.snapchat.com/messagingcoreservice.MessagingCoreService/SendTypingNotification
+
+headers:
+mcs-cof-ids-bin:	hidden
+x-request-id:	hidden
+x-snap-access-token:	hidden
+te:	trailers
+content-type:	application/grpc
+user-agent:	Snapchat/11.55.0.39 (iPad7,11; iOS 15.1; gzip) grpc-c++/1.33.2 grpc-c/13.0.0 (ios; cronet_http)
+grpc-accept-encoding:	identity,deflate,gzip
+accept-encoding:	identity,gzip
+grpc-timeout:	60100m
+
+body:
+unknown
+
+response:
+
+content-type:	application/grpc
+x-snap-mcs:	y
+x-envoy-upstream-service-time:	0
+date:	Fri, 24 Nov 2021 20:12:07 GMT
+server:	API Gateway
+strict-transport-security:	max-age=31536000; includeSubDomains
+via:	1.1 google
+alt-svc:	h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+body:
+\x00\x00\x00\x00\x00 raw

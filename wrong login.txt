@@ -1,0 +1,71 @@
+POST https://gcp.api.snapchat.com/scauth/login
+
+headers:
+
+content-length:	4524
+x-snapchat-uuid:	744f22c1-7ae9-4a93-b99b-e2b372a08596
+content-type:	application/x-www-form-urlencoded; charset=utf-8
+accept:	application/json
+x-snapchat-att:	x
+user-agent:	Snapchat/11.55.0.39 (iPad7,11; iOS 15.1; gzip)
+accept-language:	en;q=1
+accept-encoding:	gzip, br
+
+body:
+
+client_config:          hidden
+client_id:              hidden
+device_check_token:    hidden
+device_id:              453542
+device_unique_id:       453542
+dsig:                   hidden
+dtoken1i:               00001:hidden
+fidelius_client_init:   {"new_fidelius_version":9,"hashed_out_betas":["hidden","hidden","hidden","hidden","hidden","hidden"],"new_hashed_out_beta":"hidden","new_iwek":"hidden","new_out_beta":"hidden"}
+from_deeplink:          false
+height:                 1334
+odlv_pre_auth_token:    
+password:               password
+persistent_device_id:   491607664567092598
+pre_auth_token:         
+ptoken:                 {length = 32, bytes = 0x32fe3726 e37f9002 7624e82f 755367b1 ... e3e137a8 1b715ca3 }
+reactivation_confirmed: false
+remember_device:        true
+req_token:              hidden
+screen_height_in:       0
+screen_height_px:       667
+screen_width_in:        0
+screen_width_px:        375
+timestamp:              1639118424
+username:               username
+width:                  750
+
+
+
+response:
+
+headers:
+
+date:	Fri, 24 Nov 2021 20:56:09 GMT
+content-type:	application/json;charset=utf-8
+vary:	Accept-Encoding,Accept-Encoding
+x-cloud-trace-context:	hidden
+server:	API Gateway
+cache-control:	private
+x-snapchat-notice:	Snapchat Private APIs - Unauthorized use is prohibited.
+x-snapchat-request-id:	hidden
+x-snapchat-server-latency:	39
+content-encoding:	gzip
+strict-transport-security:	max-age=31536000; includeSubDomains
+via:	1.1 google, 1.1 google
+alt-svc:	h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+body:
+
+{
+    "display_register_cta": false,
+    "logged": false,
+    "message": "Oops! We could not find matching credentials.",
+    "status": -100
+}
+
+

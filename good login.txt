@@ -1,0 +1,103 @@
+POST https://gcp.api.snapchat.com/scauth/login
+
+headers:
+
+content-length:	4524
+x-snapchat-uuid:	744f22c1-7ae9-4a93-b99b-e2b372a08596
+content-type:	application/x-www-form-urlencoded; charset=utf-8
+accept:	application/json
+x-snapchat-att:	x
+user-agent:	Snapchat/11.55.0.39 (iPad7,11; iOS 15.1; gzip)
+accept-language:	en;q=1
+accept-encoding:	gzip, br
+
+body:
+
+client_config:          hidden
+client_id:              hidden
+device_check_token:    hidden
+device_id:              453542
+device_unique_id:       453542
+dsig:                   hidden
+dtoken1i:               00001:hidden
+fidelius_client_init:   {"new_fidelius_version":9,"hashed_out_betas":["hidden","hidden","hidden","hidden","hidden","hidden"],"new_hashed_out_beta":"hidden","new_iwek":"hidden","new_out_beta":"hidden"}
+from_deeplink:          false
+height:                 1334
+odlv_pre_auth_token:    
+password:               password
+persistent_device_id:   491607664567092598
+pre_auth_token:         
+ptoken:                 {length = 32, bytes = 0x32fe3726 e37f9002 7624e82f 755367b1 ... e3e137a8 1b715ca3 }
+reactivation_confirmed: false
+remember_device:        true
+req_token:              hidden
+screen_height_in:       0
+screen_height_px:       667
+screen_width_in:        0
+screen_width_px:        375
+timestamp:              1639118424
+username:               username
+width:                  750
+
+
+
+response:
+
+headers:
+
+date:	Fri, 24 Nov 2021 20:56:09 GMT
+content-type:	application/json;charset=utf-8
+vary:	Accept-Encoding,Accept-Encoding
+x-cloud-trace-context:	hidden
+server:	API Gateway
+cache-control:	private
+x-snap-refresh-token:
+x-snapchat-notice:
+x-snap-access-tokens:
+x-snap-access-tokens:
+x-snap-access-tokens:
+x-snap-access-tokens:
+x-snap-access-tokens:
+x-snap-access-tokens:
+x-snap-access-tokens:
+x-snapchat-request-id
+
+
+body:
+
+{
+    "bootstrap_data": {
+        "CoreData": ,
+        "NotificationData":,
+        "SUP": ",
+        "UserScore": 
+    },
+    "cof_response": {
+        "base64_encoded_response":
+    },
+    "feed_response_info": {},
+    "friends_response": {
+        "added_friends": [],
+        "bests": [],
+        "bests_user_ids": [],
+        "extra_friendmoji_mutable_dict": {},
+        "extra_friendmoji_read_only_dict": {},
+        "friends": [
+            {
+                "can_see_custom_stories": true,
+                "direction": "OUTGOING",
+                "display": "nameblabal",
+                "expiration": 0,
+                "friendmoji_string": "",
+                "friendmojis": [],
+                "is_popular": false,
+                "is_story_muted": false,
+                "mutable_username": "dog-123",
+                "name": "dog-123",
+                "reverse_ts": number,
+                "snap_streak_count": -1,
+                "ts": number,
+                "type": 0,
+                "user_id": "x"
+            },
+
