@@ -1,6 +1,6 @@
 # snapchat-private-api
 snapchat private api 
 ## INFO
-PROHIBITED TO USE
-USE AT YOUR OWN RISK
-maybe this will be useful for u
+1. PROHIBITED TO USE
+2. USE AT YOUR OWN RISK
+3. maybe this will be useful for u
